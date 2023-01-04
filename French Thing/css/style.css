@@ -1,0 +1,58 @@
+body {
+  position: absolute;
+  width: 100%;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+  font-size: xx-large;
+  text-align: center;
+  padding: 0.1%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.flex-container {
+  display: flex;
+  margin: 2%;
+  justify-content: center;
+}
+
+.input-container {
+  position: relative;
+  margin: auto;
+  padding: 1.5%;
+  justify-content: center;
+  background-color: rgb(83, 221, 248);
+  border-radius: 10px;
+}
+
+#btn,
+#userin {
+  width: 95%;
+  padding: 4%;
+  margin: 2.5%;
+  border: 0.2vw solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+img {
+  width: 25%;
+  padding: 1%;
+  margin-left: 5%;
+}
+
+table,
+td,
+tr {
+  margin-right: 5%;
+  width: 25%;
+  padding: 1%;
+  border: 1px solid black;
+  text-align: left;
+  font-size: 20px;
+  border-collapse: collapse;
+}
